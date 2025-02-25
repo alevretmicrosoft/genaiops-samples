@@ -17,8 +17,8 @@ The main objective of this tutorial is to help users understand the process of e
 1. NLP_Evaluators: Evaluate dataset on traditional ML evaluation methods (F1-score, Rouge, Bleu, etc).
 2. Risk_Safety_Evaluators: Evaluate dataset on AI-assisted evaluation methods to assess model ouputs on from a risk and safety perspective.
 3. GenAI_Quality_Evaluators (single model): Evaluate model ouputs on a dataset through quality AI-assisted evaluation methods (Coherence, Fluency, Groundedness, Relevance).
-4. GenAI_Quality_Evaluators (multi models): Evaluate and compare different models ouputs on a dataset through quality AI-assisted evaluation methods (Coherence, Fluency, Groundedness, Relevance).
-5. *WIP* Tracing:
+4. GenAI_Quality_Evaluators (multi models): Evaluate and compare different models ouputs on a dataset through quality AI-assisted evaluation methods (*Composite* QAEvaluator that contains multiple methods).
+5. *WIP* Tracing: **todo**
 
 ### Programming Languages
  - Python
