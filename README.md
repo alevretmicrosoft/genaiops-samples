@@ -32,4 +32,3 @@ The main objective of this tutorial is to help users understand the process of e
 ```
 az role assignment create --role "Storage Blob Data Contributor" --scope /subscriptions/<mySubscriptionID>/resourceGroups/<myResourceGroupName> --assignee-principal-type User --assignee-object-id "<user-id>"
 ```
-
