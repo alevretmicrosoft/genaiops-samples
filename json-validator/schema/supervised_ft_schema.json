@@ -1,0 +1,30 @@
+{
+    "type": "object",
+    "properties": {
+        "messages": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "role": {
+                        "type": "string",
+                        "enum": ["system", "user", "assistant"]
+                    },
+                    "content": {
+                        "type": "string"
+                    },
+                    "weight": {
+                        "type": "integer",
+                        "enum": [0, 1],
+                        "default": 1
+                    }
+                },
+                "required": ["role", "content"],
+                "additionalProperties": false
+            },
+            "minItems": 3
+        }
+    },
+    "required": ["messages"],
+    "additionalProperties": false
+}
