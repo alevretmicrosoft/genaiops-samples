@@ -23,6 +23,9 @@ The main objective of this tutorial is to help users understand the process of e
 ### Programming Languages
  - Python
 
+### Pre-requisites
+ - Rename  ```.sample.env``` file to ```.env``` by filling missing environment varibales (mostly Azure OpenAI connections and Azure AI Foundry Project information)
+
 ### Troubleshoot guidance
  - Ensure that you assign the proper permissions to the storage account linked to your Azure AI Studio hub. This can be done with the following command. More information can be found here.
     - Subscription ID of the Azure AI Studio hub's linked storage account (available in Azure AI hub resource view in Azure Portal).
