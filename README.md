@@ -25,7 +25,7 @@ The main objective of this tutorial is to help users understand the process of e
 
 ### Pre-requisites
  - Rename  ```.sample.env``` file to ```.env``` by filling missing environment varibales (mostly Azure OpenAI connections and Azure AI Foundry Project information)
- - If you're willing to make use of the safety evaluations ```02_Risk_Safety_Evalutors```, make sure to have an Azure AI Foundry project resource located in **East US 2** region (only region where those evaluation methods are in preview at the moment)
+ - If you're willing to make use of the safety evaluations ```02_Risk_Safety_Evalutors```, make sure to have an Azure AI Foundry project resource located in **East US 2**, **Sweden Central**, **France Central** or **Switzerland West** region (only regions where those evaluation methods are in preview at the moment)
 
 ### Troubleshoot guidance
  - Ensure that you assign the proper permissions to the storage account linked to your Azure AI Studio hub. This can be done with the following command. More information can be found here.
