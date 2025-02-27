@@ -5,9 +5,9 @@ from typing import Tuple
 from typing_extensions import override
 from promptflow.client import load_flow
 
-class JSONAccuracyEvaluator():
-    _PROMPTY_FILE = "json_accuracy.prompty"
-    _RESULT_KEY = "json_accuracy"
+class JSONSchemaEvaluator():
+    _PROMPTY_FILE = "json_schema.prompty"
+    _RESULT_KEY = "json_schema"
 
     def parse_quality_evaluator_reason_score(self, llm_output: str) -> Tuple[float, str]:
         """Extracts the accuracy score and reasoning from the model output."""
@@ -40,7 +40,7 @@ class JSONAccuracyEvaluator():
         json_output,
         **kwargs,
     ):
-        """Evaluates the JSON accuracy against the schema."""
+        """Evaluates how a JSON object complies against the schema."""
         llm_response = self._flow(schema=schema, json_output=json_output)
         score, reason = self.parse_quality_evaluator_reason_score(llm_response)
 

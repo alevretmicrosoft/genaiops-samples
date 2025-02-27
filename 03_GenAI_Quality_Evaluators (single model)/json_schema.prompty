@@ -1,6 +1,6 @@
 ---
-name: JSON Accuracy Evaluator
-description: Evaluates the accuracy of a JSON object against a given schema.
+name: JSON Schema Evaluator
+description: Evaluates how a JSON object complies against a given schema.
 model:
   api: chat
   parameters:
