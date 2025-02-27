@@ -1,0 +1,5 @@
+{
+    "python.analysis.extraPaths": [
+        "./03_GenAI_Quality_Evaluators (single model)"
+    ]
+}

@@ -3,6 +3,8 @@ name: JSON Schema Evaluator
 description: Evaluates how a JSON object complies against a given schema.
 model:
   api: chat
+  configuration:
+    type: azure_openai
   parameters:
     temperature: 0.0
     max_tokens: 800
